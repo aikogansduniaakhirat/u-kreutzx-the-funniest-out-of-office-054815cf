@@ -1,0 +1,11 @@
+{
+  "name": "u-kreutzx-the-funniest-out-of-office-054815cf",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Writes one line to /output/entry.txt: a one-line out-of-office auto-reply, written against the judge brief.",
+  "license": "MIT",
+  "scripts": {
+    "entry": "MAKEFUN_OUTPUT_DIR=out node main.ts"
+  }
+}
